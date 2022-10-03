@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve-dist": "http-server dist",
+    "build-doodle": "./scripts/build-webpack-doodle.sh",
+    "build-rust-doodle": "./scripts/build-rust-doodle.sh",
+    "build-doodle-dev": "./scripts/build-webpack-doodle-dev.sh"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.32.7",
+    "react": "^18.2.0",
+    "react-cool-dimensions": "^2.0.7",
+    "react-dom": "^18.2.0",
+    "react-three": "^0.9.7",
+    "react-three-fiber": "^6.0.13",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "base64-inline-loader": "^2.0.1",
+    "webpack-cli": "^4.10.0"
+  }
+}
